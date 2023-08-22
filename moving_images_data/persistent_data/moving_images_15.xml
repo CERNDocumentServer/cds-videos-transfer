@@ -1,0 +1,1032 @@
+<collection xmlns="http://www.loc.gov/MARC21/slim">
+<record>
+  <controlfield tag="001">42952</controlfield>
+  <controlfield tag="003">SzGeCERN</controlfield>
+  <controlfield tag="005">20201204151659.0</controlfield>
+  <datafield tag="035" ind1=" " ind2=" ">
+    <subfield code="9">PHOPHO</subfield>
+    <subfield code="a">0004384</subfield>
+  </datafield>
+  <datafield tag="037" ind1=" " ind2=" ">
+    <subfield code="a">CERN-MOVIE-1997-001-001</subfield>
+  </datafield>
+  <datafield tag="041" ind1=" " ind2=" ">
+    <subfield code="a">eng</subfield>
+  </datafield>
+  <datafield tag="100" ind1=" " ind2=" ">
+    <subfield code="a">Jean-Paul Crespi</subfield>
+    <subfield code="e">Director</subfield>
+    <subfield code="u">8 Mont-Blanc</subfield>
+  </datafield>
+  <datafield tag="245" ind1=" " ind2=" ">
+    <subfield code="a">Back to creation</subfield>
+  </datafield>
+  <datafield tag="260" ind1=" " ind2=" ">
+    <subfield code="c">1997</subfield>
+  </datafield>
+  <datafield tag="269" ind1=" " ind2=" ">
+    <subfield code="b">CERN Copyright 1997</subfield>
+  </datafield>
+  <datafield tag="269" ind1=" " ind2=" ">
+    <subfield code="c">1997-01-01</subfield>
+  </datafield>
+  <datafield tag="300" ind1=" " ind2=" ">
+    <subfield code="a">00:09:46.200</subfield>
+    <subfield code="b">720x576 4/3, 25.00</subfield>
+    <subfield code="c">25</subfield>
+    <subfield code="d">720x576</subfield>
+    <subfield code="e">4:3</subfield>
+  </datafield>
+  <datafield tag="340" ind1=" " ind2=" ">
+    <subfield code="a">Betacam SP</subfield>
+  </datafield>
+  <datafield tag="500" ind1=" " ind2=" ">
+    <subfield code="a">The video was digitized from its original recording as part of the CERN Digital Memory project</subfield>
+  </datafield>
+  <datafield tag="520" ind1=" " ind2=" ">
+    <subfield code="a">Twelve millions years ago, a gigantic explosion the Big Bang, gave birth to space, time and matter ......</subfield>
+  </datafield>
+  <datafield tag="541" ind1=" " ind2=" ">
+    <subfield code="e">P141a</subfield>
+  </datafield>
+  <datafield tag="542" ind1=" " ind2=" ">
+    <subfield code="d">CERN</subfield>
+    <subfield code="g">1997</subfield>
+  </datafield>
+  <datafield tag="583" ind1="1" ind2=" ">
+    <subfield code="2">pda</subfield>
+    <subfield code="3">Betacam SP</subfield>
+    <subfield code="5">SzGeCERN</subfield>
+    <subfield code="6">disks/DELIVERY47</subfield>
+    <subfield code="a">digitized</subfield>
+    <subfield code="b">S1V1</subfield>
+    <subfield code="c">202011</subfield>
+    <subfield code="f">CERN Digital Memory Project</subfield>
+    <subfield code="i">OPEN-REFINE Project SUM-NOV2020</subfield>
+    <subfield code="k">PICTURAE</subfield>
+    <subfield code="u">https://cds.cern.ch/record/2257246</subfield>
+    <subfield code="n">9,9</subfield>
+    <subfield code="o">minutes</subfield>
+    <subfield code="x"> Audio present but not on all channels; Low RF, noisy picture</subfield>
+  </datafield>
+  <datafield tag="595" ind1=" " ind2=" ">
+    <subfield code="a">The digitized video file was linked to this record in Nov.2020.</subfield>
+  </datafield>
+  <datafield tag="595" ind1=" " ind2=" ">
+    <subfield code="a">Betacam SP</subfield>
+  </datafield>
+  <datafield tag="650" ind1="1" ind2="7">
+    <subfield code="2">SzGeCERN</subfield>
+    <subfield code="a">History</subfield>
+  </datafield>
+  <datafield tag="690" ind1="C" ind2=" ">
+    <subfield code="a">reviewed</subfield>
+  </datafield>
+  <datafield tag="690" ind1="C" ind2=" ">
+    <subfield code="a">movingimages</subfield>
+  </datafield>
+  <datafield tag="773" ind1=" " ind2=" ">
+    <subfield code="o">AVW.project.588</subfield>
+    <subfield code="r">CERN-MOVIE-1997-001</subfield>
+  </datafield>
+  <datafield tag="773" ind1=" " ind2=" ">
+    <subfield code="p">French version</subfield>
+    <subfield code="u">https://cds.cern.ch/record/42953</subfield>
+  </datafield>
+  <datafield tag="852" ind1=" " ind2=" ">
+    <subfield code="a">Not-in-Inventory</subfield>
+    <subfield code="c">CM-A00000349</subfield>
+  </datafield>
+  <datafield tag="856" ind1="7" ind2=" ">
+    <subfield code="2">EOS</subfield>
+    <subfield code="q">MKV</subfield>
+    <subfield code="d">/eos/media/cds/public/www/digital-memory/media-archive/video/open/mkv/pm_S1V1_CM-A00000349-068.mkv</subfield>
+    <subfield code="w">(PICTURAE:MD5)CM-A00000349-068.mkv;1bcaae9e9d1466ff5da2e8d09d4b792f</subfield>
+  </datafield>
+  <datafield tag="856" ind1="7" ind2=" ">
+    <subfield code="2">EOS</subfield>
+    <subfield code="q">MOV</subfield>
+    <subfield code="d">/eos/media/cds/public/www/digital-memory/media-archive/video/open/mov/am_S1V1_CM-A00000349-068.mov</subfield>
+    <subfield code="w">(PICTURAE:MD5)CM-A00000349-068.mov;efe6432d77a1af84f5f4c6296030b355</subfield>
+  </datafield>
+  <datafield tag="856" ind1="4" ind2=" ">
+    <subfield code="2">EOS</subfield>
+    <subfield code="q">MP4</subfield>
+    <subfield code="u">http://cern.ch/digital-memory/media-archive/video/open/mp4/ac_S1V1_CM-A00000349-068.mp4</subfield>
+    <subfield code="y">Video-CM-A00000349-068</subfield>
+    <subfield code="z">mp4 video format (640x360)</subfield>
+    <subfield code="w">(PICTURAE:MD5)CM-A00000349-068.mp4;21f33af0d803e6485ac48de8b06ccb3d</subfield>
+    <subfield code="x">Reviewed and recovered by Tom Barthelemy in Decembre 2020</subfield>
+  </datafield>
+  <datafield tag="859" ind1=" " ind2=" ">
+    <subfield code="f">Jacques.Fichet@cern.ch</subfield>
+  </datafield>
+  <datafield tag="859" ind1=" " ind2=" ">
+    <subfield code="f">noemi.caraban.gonzalez@cern.ch</subfield>
+  </datafield>
+  <datafield tag="859" ind1=" " ind2=" ">
+    <subfield code="f">vmo-restictedrights@cern.ch</subfield>
+  </datafield>
+  <datafield tag="916" ind1=" " ind2=" ">
+    <subfield code="s">n</subfield>
+    <subfield code="w">200218</subfield>
+  </datafield>
+  <datafield tag="960" ind1=" " ind2=" ">
+    <subfield code="a">85</subfield>
+  </datafield>
+  <datafield tag="961" ind1=" " ind2=" ">
+    <subfield code="c">20070502</subfield>
+    <subfield code="h">1442</subfield>
+    <subfield code="l">MMD01</subfield>
+    <subfield code="x">20020426</subfield>
+  </datafield>
+  <datafield tag="963" ind1=" " ind2=" ">
+    <subfield code="a">PUBLIC</subfield>
+  </datafield>
+  <datafield tag="970" ind1=" " ind2=" ">
+    <subfield code="a">AVW.clip.766</subfield>
+  </datafield>
+  <datafield tag="970" ind1=" " ind2=" ">
+    <subfield code="d">https://videos.cern.ch/record/42952</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">PUBLVIDEOMOVIE</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="b">VIDEOMEDIALAB</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="c">MIGRATED</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">VIDEOARC</subfield>
+  </datafield>
+</record>
+</collection>
+<collection xmlns="http://www.loc.gov/MARC21/slim">
+<record>
+  <controlfield tag="001">42941</controlfield>
+  <controlfield tag="003">SzGeCERN</controlfield>
+  <controlfield tag="005">20210324111137.0</controlfield>
+  <datafield tag="024" ind1="8" ind2=" ">
+    <subfield code="a">oai:cds.cern.ch:42941</subfield>
+    <subfield code="q">cerncds:FULLTEXT</subfield>
+  </datafield>
+  <datafield tag="035" ind1=" " ind2=" ">
+    <subfield code="9">PHOPHO</subfield>
+    <subfield code="a">0004373</subfield>
+  </datafield>
+  <datafield tag="037" ind1=" " ind2=" ">
+    <subfield code="a">CERN-MOVIE-2000-006-001</subfield>
+  </datafield>
+  <datafield tag="041" ind1=" " ind2=" ">
+    <subfield code="a">fre</subfield>
+  </datafield>
+  <datafield tag="100" ind1=" " ind2=" ">
+    <subfield code="a">Alain Cagnou et Marie-Pascale Perrimbert</subfield>
+    <subfield code="e">Realisation</subfield>
+  </datafield>
+  <datafield tag="245" ind1=" " ind2=" ">
+    <subfield code="a">Du Big au Bang ! un plongeon au coeur de la mati\xc3\xa8re</subfield>
+  </datafield>
+  <datafield tag="260" ind1=" " ind2=" ">
+    <subfield code="c">2000</subfield>
+  </datafield>
+  <datafield tag="269" ind1=" " ind2=" ">
+    <subfield code="b">CERN Copyright 2000</subfield>
+  </datafield>
+  <datafield tag="269" ind1=" " ind2=" ">
+    <subfield code="c">2000-01-01</subfield>
+  </datafield>
+  <datafield tag="300" ind1=" " ind2=" ">
+    <subfield code="a">00:14:16.867</subfield>
+    <subfield code="b">320x240 4/3, 15.00</subfield>
+    <subfield code="c">15</subfield>
+    <subfield code="d">320x240</subfield>
+    <subfield code="e">4:3</subfield>
+  </datafield>
+  <datafield tag="500" ind1=" " ind2=" ">
+    <subfield code="a">The video was digitized from its original recording as part of the CERN Digital Memory project</subfield>
+  </datafield>
+  <datafield tag="520" ind1=" " ind2=" ">
+    <subfield code="a">&lt;HTML>De quoi le monde est-il fait ? &lt;BR> De quoi le soleil, les autres \xc3\xa9toiles, la terre, les arbres, l\'air que nous respirons, l\'eau des rivi\xc3\xa8res, les animaux et nous-m\xc3\xaames, de quoi sommes-nous faits? &lt;BR> Questions de tout temps qui passionnent l\'humanit\xc3\xa9 !&lt;/BR></subfield>
+  </datafield>
+  <datafield tag="542" ind1=" " ind2=" ">
+    <subfield code="d">CERN</subfield>
+    <subfield code="g">2000</subfield>
+  </datafield>
+  <datafield tag="583" ind1="1" ind2=" ">
+    <subfield code="2">pda</subfield>
+    <subfield code="3">Betacam SP</subfield>
+    <subfield code="5">SzGeCERN</subfield>
+    <subfield code="6">disks/DELIVERY47</subfield>
+    <subfield code="a">digitized</subfield>
+    <subfield code="b">S1V1</subfield>
+    <subfield code="c">202011</subfield>
+    <subfield code="f">CERN Digital Memory Project</subfield>
+    <subfield code="i">OPEN-REFINE Project SUM-NOV2020</subfield>
+    <subfield code="k">PICTURAE</subfield>
+    <subfield code="u">https://cds.cern.ch/record/2257246</subfield>
+    <subfield code="n">13,54</subfield>
+    <subfield code="o">minutes</subfield>
+    <subfield code="x"> Low RF, noisy picture</subfield>
+  </datafield>
+  <datafield tag="583" ind1=" " ind2=" ">
+    <subfield code="a">curation</subfield>
+    <subfield code="c">Decembre 2020</subfield>
+    <subfield code="8">b</subfield>
+    <subfield code="z"> -Audio: TRUE -Video Signal: TRUE -Multiple: FALSE -Relevant to CERN: TRUE -Action required: To be added -Duplicate: TRUE -Found: 42941</subfield>
+  </datafield>
+  <datafield tag="595" ind1=" " ind2=" ">
+    <subfield code="a">The digitized video file was linked to this record in Nov.2020.</subfield>
+  </datafield>
+  <datafield tag="595" ind1=" " ind2=" ">
+    <subfield code="a">Betacam SP</subfield>
+  </datafield>
+  <datafield tag="595" ind1=" " ind2=" ">
+    <subfield code="a">The digitized video file was linked to this record in Dec.2020.</subfield>
+  </datafield>
+  <datafield tag="650" ind1="1" ind2="7">
+    <subfield code="2">SzGeCERN</subfield>
+    <subfield code="a">History</subfield>
+  </datafield>
+  <datafield tag="690" ind1="C" ind2=" ">
+    <subfield code="a">reviewed</subfield>
+  </datafield>
+  <datafield tag="690" ind1="C" ind2=" ">
+    <subfield code="a">movingimages</subfield>
+  </datafield>
+  <datafield tag="773" ind1=" " ind2=" ">
+    <subfield code="o">AVW.project.647</subfield>
+    <subfield code="r">CERN-MOVIE-2000-006</subfield>
+  </datafield>
+  <datafield tag="852" ind1=" " ind2=" ">
+    <subfield code="a">510-R-036</subfield>
+    <subfield code="c">CM-A00000010</subfield>
+    <subfield code="x">DVD</subfield>
+  </datafield>
+  <datafield tag="852" ind1=" " ind2=" ">
+    <subfield code="a">Not-in-Inventory</subfield>
+    <subfield code="c">CM-A00000349</subfield>
+  </datafield>
+  <datafield tag="856" ind1="4" ind2=" ">
+    <subfield code="8">547704</subfield>
+    <subfield code="s">17398</subfield>
+    <subfield code="u">http://cds.cern.ch/record/42941/files/icon-videoclip-2000-006.gif</subfield>
+  </datafield>
+  <datafield tag="856" ind1="4" ind2=" ">
+    <subfield code="8">547704</subfield>
+    <subfield code="s">17730</subfield>
+    <subfield code="u">http://cds.cern.ch/record/42941/files/icon-videoclip-2000-006.gif?subformat=icon</subfield>
+    <subfield code="x">icon</subfield>
+  </datafield>
+  <datafield tag="856" ind1="7" ind2=" ">
+    <subfield code="2">EOS</subfield>
+    <subfield code="q">MKV</subfield>
+    <subfield code="d">/eos/media/cds/public/www/digital-memory/media-archive/video/open/mkv/pm_S1V1_CM-A00000349-049.mkv</subfield>
+    <subfield code="w">(PICTURAE:MD5)CM-A00000349-049.mkv;d57a1a17c34263050bc84df87218eba8</subfield>
+  </datafield>
+  <datafield tag="856" ind1="7" ind2=" ">
+    <subfield code="2">EOS</subfield>
+    <subfield code="q">MOV</subfield>
+    <subfield code="d">/eos/media/cds/public/www/digital-memory/media-archive/video/open/mov/am_S1V1_CM-A00000349-049.mov</subfield>
+    <subfield code="w">(PICTURAE:MD5)CM-A00000349-049.mov;10eb80d93e01a0e5768f89e22b789b4a</subfield>
+  </datafield>
+  <datafield tag="856" ind1="4" ind2=" ">
+    <subfield code="2">EOS</subfield>
+    <subfield code="q">MP4</subfield>
+    <subfield code="u">http://cern.ch/digital-memory/media-archive/video/open/mp4/ac_S1V1_CM-A00000349-049.mp4</subfield>
+    <subfield code="y">Video-CM-A00000349-049</subfield>
+    <subfield code="z">mp4 video format (640x360)</subfield>
+    <subfield code="w">(PICTURAE:MD5)CM-A00000349-049.mp4;2a66783bf9278174edbf2a8f7f05c183</subfield>
+    <subfield code="x">Reviewed and recovered by Tom Barthelemy in Decembre 2020</subfield>
+  </datafield>
+  <datafield tag="856" ind1="4" ind2=" ">
+    <subfield code="2">EOS</subfield>
+    <subfield code="q">MP4</subfield>
+    <subfield code="u">http://cern.ch/digital-memory/media-archive/video/cern/mp4/42941-b.mp4</subfield>
+    <subfield code="y">Video-42941-b</subfield>
+    <subfield code="z">mp4 video format (640x360)</subfield>
+    <subfield code="w">(PICTURAE:MD5)ac_D1V1_42941-b.mp4;650b91f3d64fbfe55e8953a2a6f7b177</subfield>
+    <subfield code="x">Reviewed by Tom Barth\xc3\xa9l\xc3\xa9my in Decembre 2020</subfield>
+  </datafield>
+  <datafield tag="856" ind1="7" ind2=" ">
+    <subfield code="2">EOS</subfield>
+    <subfield code="q">MOV</subfield>
+    <subfield code="d">/eos/media/cds/public/www/digital-memory/media-archive/video/cern/mov/42941-b.mov</subfield>
+    <subfield code="w">(PICTURAE:MD5)am_D1V1_42941-b.mov;f5bc7ae1d45e2c0259349873acbbaeb8</subfield>
+    <subfield code="x">Reviewed by Tom Barth\xc3\xa9l\xc3\xa9my in Decembre 2020</subfield>
+  </datafield>
+  <datafield tag="856" ind1="7" ind2=" ">
+    <subfield code="2">EOS</subfield>
+    <subfield code="q">MKV</subfield>
+    <subfield code="d">/eos/media/cds/public/www/digital-memory/media-archive/video/cern/mkv/42941-b.mkv</subfield>
+    <subfield code="w">(PICTURAE:MD5)pm_D1V1_42941-b.mkv;34a88093416e9696746a3c28a3df0ba3</subfield>
+    <subfield code="x">Reviewed by Tom Barth\xc3\xa9l\xc3\xa9my in Decembre 2020</subfield>
+  </datafield>
+  <datafield tag="859" ind1=" " ind2=" ">
+    <subfield code="f">Jacques.Fichet@cern.ch</subfield>
+  </datafield>
+  <datafield tag="859" ind1=" " ind2=" ">
+    <subfield code="f">noemi.caraban.gonzalez@cern.ch</subfield>
+  </datafield>
+  <datafield tag="859" ind1=" " ind2=" ">
+    <subfield code="f">vmo-restictedrights@cern.ch</subfield>
+  </datafield>
+  <datafield tag="916" ind1=" " ind2=" ">
+    <subfield code="s">n</subfield>
+    <subfield code="w">200218</subfield>
+  </datafield>
+  <datafield tag="960" ind1=" " ind2=" ">
+    <subfield code="a">85</subfield>
+  </datafield>
+  <datafield tag="961" ind1=" " ind2=" ">
+    <subfield code="c">20050131</subfield>
+    <subfield code="h">1115</subfield>
+    <subfield code="l">MMD01</subfield>
+    <subfield code="x">20020423</subfield>
+  </datafield>
+  <datafield tag="963" ind1=" " ind2=" ">
+    <subfield code="a">PUBLIC</subfield>
+  </datafield>
+  <datafield tag="970" ind1=" " ind2=" ">
+    <subfield code="a">AVW.clip.825</subfield>
+  </datafield>
+  <datafield tag="970" ind1=" " ind2=" ">
+    <subfield code="d">https://videos.cern.ch/record/42941</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">PUBLVIDEOMOVIE</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="b">VIDEOMEDIALAB</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="c">MIGRATED</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">VIDEOARC</subfield>
+  </datafield>
+</record>
+</collection>
+<collection xmlns="http://www.loc.gov/MARC21/slim">
+<record>
+  <controlfield tag="001">42940</controlfield>
+  <controlfield tag="003">SzGeCERN</controlfield>
+  <controlfield tag="005">20201218085936.0</controlfield>
+  <datafield tag="035" ind1=" " ind2=" ">
+    <subfield code="9">PHOPHO</subfield>
+    <subfield code="a">0004372</subfield>
+  </datafield>
+  <datafield tag="037" ind1=" " ind2=" ">
+    <subfield code="a">CERN-MOVIE-1998-002-001</subfield>
+  </datafield>
+  <datafield tag="041" ind1=" " ind2=" ">
+    <subfield code="a">fre</subfield>
+  </datafield>
+  <datafield tag="100" ind1=" " ind2=" ">
+    <subfield code="a">Jean Leyder</subfield>
+    <subfield code="e">Scenario et realisation</subfield>
+  </datafield>
+  <datafield tag="245" ind1=" " ind2=" ">
+    <subfield code="a">Le Carrousel du temps : l\'aventure du LHC est un voyage \xc3\xa0 travers le temps ....</subfield>
+  </datafield>
+  <datafield tag="260" ind1=" " ind2=" ">
+    <subfield code="c">1998</subfield>
+  </datafield>
+  <datafield tag="269" ind1=" " ind2=" ">
+    <subfield code="b">CERN Copyright 1998</subfield>
+  </datafield>
+  <datafield tag="269" ind1=" " ind2=" ">
+    <subfield code="c">1998-01-01</subfield>
+  </datafield>
+  <datafield tag="300" ind1=" " ind2=" ">
+    <subfield code="a">00:11:40.480</subfield>
+    <subfield code="b">720x576 4/3, 25.00</subfield>
+    <subfield code="c">25</subfield>
+    <subfield code="d">720x576</subfield>
+    <subfield code="e">4:3</subfield>
+  </datafield>
+  <datafield tag="340" ind1=" " ind2=" ">
+    <subfield code="a">Betacam SP</subfield>
+  </datafield>
+  <datafield tag="340" ind1=" " ind2=" ">
+    <subfield code="a">U-matic</subfield>
+  </datafield>
+  <datafield tag="500" ind1=" " ind2=" ">
+    <subfield code="a">The video was digitized from its original recording as part of the CERN Digital Memory project</subfield>
+  </datafield>
+  <datafield tag="520" ind1=" " ind2=" ">
+    <subfield code="a">Les d\xc3\xa9couvertes arch\xc3\xa9ologiques sur l\'un des sites du LHC nous ram\xc3\xa8nent quelques 1700 ans en arri\xc3\xa8re. Les ing\xc3\xa9nieurs ont creus\xc3\xa9 la roche d\'environ 208 \xc3\xa0 144 millions d\'ann\xc3\xa9es, et avec les collisions du LHC, le voyage aboutira \xc3\xa0 l\'origine du temps lui m\xc3\xaame.</subfield>
+  </datafield>
+  <datafield tag="541" ind1=" " ind2=" ">
+    <subfield code="e">P142b</subfield>
+  </datafield>
+  <datafield tag="542" ind1=" " ind2=" ">
+    <subfield code="d">CERN</subfield>
+    <subfield code="g">1998</subfield>
+  </datafield>
+  <datafield tag="583" ind1="1" ind2=" ">
+    <subfield code="2">pda</subfield>
+    <subfield code="3">Betacam SP</subfield>
+    <subfield code="5">SzGeCERN</subfield>
+    <subfield code="6">disks/DELIVERY40</subfield>
+    <subfield code="a">digitized</subfield>
+    <subfield code="b">S1V1</subfield>
+    <subfield code="c">202011</subfield>
+    <subfield code="f">CERN Digital Memory Project</subfield>
+    <subfield code="i">OPEN-REFINE Project SUM-NOV2020</subfield>
+    <subfield code="k">PICTURAE</subfield>
+    <subfield code="u">https://cds.cern.ch/record/2257246</subfield>
+    <subfield code="n">11,5566666666667</subfield>
+    <subfield code="o">minutes</subfield>
+    <subfield code="x"> Low RF, noisy picture</subfield>
+  </datafield>
+  <datafield tag="595" ind1=" " ind2=" ">
+    <subfield code="a">The digitized video file was linked to this record in Nov.2020.</subfield>
+  </datafield>
+  <datafield tag="595" ind1=" " ind2=" ">
+    <subfield code="a">Betacam SP</subfield>
+  </datafield>
+  <datafield tag="650" ind1="1" ind2="7">
+    <subfield code="2">SzGeCERN</subfield>
+    <subfield code="a">History</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="9">review</subfield>
+    <subfield code="a">LHC</subfield>
+  </datafield>
+  <datafield tag="690" ind1="C" ind2=" ">
+    <subfield code="a">reviewed</subfield>
+  </datafield>
+  <datafield tag="690" ind1="C" ind2=" ">
+    <subfield code="a">movingimages</subfield>
+  </datafield>
+  <datafield tag="773" ind1=" " ind2=" ">
+    <subfield code="o">AVW.project.608</subfield>
+    <subfield code="r">CERN-MOVIE-1998-002</subfield>
+  </datafield>
+  <datafield tag="773" ind1=" " ind2=" ">
+    <subfield code="p">Version anglaise</subfield>
+    <subfield code="u">https://cds.cern.ch/record/42939</subfield>
+  </datafield>
+  <datafield tag="773" ind1=" " ind2=" ">
+    <subfield code="p">Version italienne</subfield>
+    <subfield code="u">https://cds.cern.ch/record/42948</subfield>
+  </datafield>
+  <datafield tag="773" ind1=" " ind2=" ">
+    <subfield code="p">Version allemande</subfield>
+    <subfield code="u">https://cds.cern.ch/record/42949</subfield>
+  </datafield>
+  <datafield tag="773" ind1=" " ind2=" ">
+    <subfield code="p">Version hongroise</subfield>
+    <subfield code="u">https://cds.cern.ch/record/1026590</subfield>
+  </datafield>
+  <datafield tag="773" ind1=" " ind2=" ">
+    <subfield code="p">Version espagnole</subfield>
+    <subfield code="u">https://cds.cern.ch/record/1024510</subfield>
+  </datafield>
+  <datafield tag="852" ind1=" " ind2=" ">
+    <subfield code="a">510-R-005</subfield>
+    <subfield code="c">CM-A00000006</subfield>
+  </datafield>
+  <datafield tag="852" ind1=" " ind2=" ">
+    <subfield code="a">510-R-036</subfield>
+    <subfield code="c">CM-A00000010</subfield>
+    <subfield code="x">DVD</subfield>
+  </datafield>
+  <datafield tag="852" ind1=" " ind2=" ">
+    <subfield code="a">698</subfield>
+    <subfield code="c">CM-A00000062</subfield>
+    <subfield code="t">1</subfield>
+    <subfield code="x">U-matic</subfield>
+  </datafield>
+  <datafield tag="852" ind1=" " ind2=" ">
+    <subfield code="a">Not-in-Inventory</subfield>
+    <subfield code="c">CM-A00000349</subfield>
+  </datafield>
+  <datafield tag="856" ind1="7" ind2=" ">
+    <subfield code="2">EOS</subfield>
+    <subfield code="q">MKV</subfield>
+    <subfield code="d">/eos/media/cds/public/www/digital-memory/media-archive/video/open/mkv/pm_S1V1_CM-A00000349-024.mkv</subfield>
+    <subfield code="w">(PICTURAE:MD5)CM-A00000349-024.mkv;e4174257ed2c3615ae629aa0404dbb51</subfield>
+  </datafield>
+  <datafield tag="856" ind1="7" ind2=" ">
+    <subfield code="2">EOS</subfield>
+    <subfield code="q">MOV</subfield>
+    <subfield code="d">/eos/media/cds/public/www/digital-memory/media-archive/video/open/mov/am_S1V1_CM-A00000349-024.mov</subfield>
+    <subfield code="w">(PICTURAE:MD5)CM-A00000349-024.mov;490addfb99f1780dd3f5b1696ece0485</subfield>
+  </datafield>
+  <datafield tag="856" ind1="4" ind2=" ">
+    <subfield code="2">EOS</subfield>
+    <subfield code="q">MP4</subfield>
+    <subfield code="u">http://cern.ch/digital-memory/media-archive/video/open/mp4/ac_S1V1_CM-A00000349-024.mp4</subfield>
+    <subfield code="y">Video-CM-A00000349-024</subfield>
+    <subfield code="z">mp4 video format (640x360)</subfield>
+    <subfield code="w">(PICTURAE:MD5)CM-A00000349-024.mp4;efbcf2b9823a6e97cef237a941fdb023</subfield>
+    <subfield code="x">Reviewed and recovered by Tom Barthelemy in Decembre 2020</subfield>
+  </datafield>
+  <datafield tag="856" ind1="4" ind2=" ">
+    <subfield code="2">EOS</subfield>
+    <subfield code="x">fixed</subfield>
+    <subfield code="q">MP4</subfield>
+    <subfield code="u">http://cern.ch/digital-memory/media-archive/video/open/mp4/CM-A00000071-008.mp4</subfield>
+    <subfield code="y">Video-CM-A00000071-008</subfield>
+    <subfield code="z">mp4 video format (640x360)</subfield>
+    <subfield code="w">(PICTURAE:MD5)CM-A00000071-008.mp4;e99379718eab911a5e78f4a865324316</subfield>
+    <subfield code="x">Reviewed byTom Barthelemy in Novembre 2020</subfield>
+  </datafield>
+  <datafield tag="856" ind1="7" ind2=" ">
+    <subfield code="2">EOS</subfield>
+    <subfield code="x">fixed</subfield>
+    <subfield code="q">MOV</subfield>
+    <subfield code="d">/eos/media/cds/public/www/digital-memory/media-archive/video/open/mov/CM-A00000071-008.mov</subfield>
+    <subfield code="w">(PICTURAE:MD5)CM-A00000071-008.mov;9e6e8f0cf4f4c17d75e7dc8f9ff662dc</subfield>
+  </datafield>
+  <datafield tag="859" ind1=" " ind2=" ">
+    <subfield code="f">Jacques.Fichet@cern.ch</subfield>
+  </datafield>
+  <datafield tag="859" ind1=" " ind2=" ">
+    <subfield code="f">noemi.caraban.gonzalez@cern.ch</subfield>
+  </datafield>
+  <datafield tag="859" ind1=" " ind2=" ">
+    <subfield code="f">vmo-restictedrights@cern.ch</subfield>
+  </datafield>
+  <datafield tag="916" ind1=" " ind2=" ">
+    <subfield code="s">n</subfield>
+    <subfield code="w">200218</subfield>
+  </datafield>
+  <datafield tag="960" ind1=" " ind2=" ">
+    <subfield code="a">85</subfield>
+  </datafield>
+  <datafield tag="961" ind1=" " ind2=" ">
+    <subfield code="c">20070502</subfield>
+    <subfield code="h">1440</subfield>
+    <subfield code="l">MMD01</subfield>
+    <subfield code="x">20020423</subfield>
+  </datafield>
+  <datafield tag="963" ind1=" " ind2=" ">
+    <subfield code="a">PUBLIC</subfield>
+  </datafield>
+  <datafield tag="970" ind1=" " ind2=" ">
+    <subfield code="a">AVW.clip.786</subfield>
+  </datafield>
+  <datafield tag="970" ind1=" " ind2=" ">
+    <subfield code="d">https://videos.cern.ch/record/42940</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">PUBLVIDEOMOVIE</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="b">VIDEOMEDIALAB</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="c">MIGRATED</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">VIDEOARC</subfield>
+  </datafield>
+</record>
+</collection>
+<collection xmlns="http://www.loc.gov/MARC21/slim">
+<record>
+  <controlfield tag="001">42939</controlfield>
+  <controlfield tag="003">SzGeCERN</controlfield>
+  <controlfield tag="005">20210324121854.0</controlfield>
+  <datafield tag="035" ind1=" " ind2=" ">
+    <subfield code="9">PHOPHO</subfield>
+    <subfield code="a">0004371</subfield>
+  </datafield>
+  <datafield tag="037" ind1=" " ind2=" ">
+    <subfield code="a">CERN-MOVIE-1998-001-001</subfield>
+  </datafield>
+  <datafield tag="041" ind1=" " ind2=" ">
+    <subfield code="a">eng</subfield>
+  </datafield>
+  <datafield tag="100" ind1=" " ind2=" ">
+    <subfield code="a">Jean Leyder</subfield>
+    <subfield code="e">Script and Director</subfield>
+  </datafield>
+  <datafield tag="245" ind1=" " ind2=" ">
+    <subfield code="a">The time machine : the LHC adventure is a journey through time ....</subfield>
+  </datafield>
+  <datafield tag="260" ind1=" " ind2=" ">
+    <subfield code="c">1998</subfield>
+  </datafield>
+  <datafield tag="269" ind1=" " ind2=" ">
+    <subfield code="b">CERN Copyright 1998</subfield>
+  </datafield>
+  <datafield tag="269" ind1=" " ind2=" ">
+    <subfield code="c">1998-01-01</subfield>
+  </datafield>
+  <datafield tag="300" ind1=" " ind2=" ">
+    <subfield code="a">00:11:29.280</subfield>
+    <subfield code="b">352x288 4/3, 25.00</subfield>
+    <subfield code="c">25</subfield>
+    <subfield code="d">352x288</subfield>
+    <subfield code="e">4:3</subfield>
+  </datafield>
+  <datafield tag="337" ind1=" " ind2=" ">
+    <subfield code="a">Video</subfield>
+  </datafield>
+  <datafield tag="340" ind1=" " ind2=" ">
+    <subfield code="a">Betacam SP</subfield>
+  </datafield>
+  <datafield tag="340" ind1=" " ind2=" ">
+    <subfield code="a">U-matic SP</subfield>
+  </datafield>
+  <datafield tag="340" ind1=" " ind2=" ">
+    <subfield code="a">VHS</subfield>
+    <subfield code="j">Copy</subfield>
+  </datafield>
+  <datafield tag="500" ind1=" " ind2=" ">
+    <subfield code="a">The video was digitized from its original recording as part of the CERN Digital Memory project</subfield>
+  </datafield>
+  <datafield tag="500" ind1=" " ind2=" ">
+    <subfield code="a">During the curation of digitized tapes and films in 2020, this record was identified with duplicated original medias.</subfield>
+  </datafield>
+  <datafield tag="520" ind1=" " ind2=" ">
+    <subfield code="a">Archaeological findings at one LHC site take us back some 1700 years. Civil engineers dug through rock that dates from about 208 to 144 million years, and the LHC's collisions will complete the journey back to the beginning of time itself.</subfield>
+  </datafield>
+  <datafield tag="541" ind1=" " ind2=" ">
+    <subfield code="e">P142a</subfield>
+  </datafield>
+  <datafield tag="542" ind1=" " ind2=" ">
+    <subfield code="d">CERN</subfield>
+    <subfield code="g">1998</subfield>
+  </datafield>
+  <datafield tag="583" ind1="1" ind2=" ">
+    <subfield code="2">pda</subfield>
+    <subfield code="3">U-matic</subfield>
+    <subfield code="5">SzGeCERN</subfield>
+    <subfield code="6">disks/DELIVERY35</subfield>
+    <subfield code="a">digitized</subfield>
+    <subfield code="b">C1V1</subfield>
+    <subfield code="c">202011</subfield>
+    <subfield code="f">CERN Digital Memory Project</subfield>
+    <subfield code="i">OPEN-REFINE Project SUM-NOV2020</subfield>
+    <subfield code="k">PICTURAE</subfield>
+    <subfield code="u">https://cds.cern.ch/record/2257246</subfield>
+    <subfield code="n">11,5766666666667</subfield>
+    <subfield code="o">minutes</subfield>
+  </datafield>
+  <datafield tag="583" ind1=" " ind2=" ">
+    <subfield code="a">curation</subfield>
+    <subfield code="c">Decembre 2020</subfield>
+    <subfield code="8">a</subfield>
+    <subfield code="z"> -Audio: TRUE -Video Signal: TRUE -Multiple: TRUE -Relevant to CERN: TRUE -Action required: To be removed -Duplicate: TRUE</subfield>
+  </datafield>
+  <datafield tag="583" ind1="1" ind2=" ">
+    <subfield code="3">DVD</subfield>
+    <subfield code="6">disks/DELIVERY91</subfield>
+    <subfield code="b">D1V1</subfield>
+    <subfield code="n">71,6133333333333</subfield>
+    <subfield code="o">minutes</subfield>
+    <subfield code="8">a</subfield>
+  </datafield>
+  <datafield tag="595" ind1=" " ind2=" ">
+    <subfield code="a">The digitized video file was linked to this record in Nov.2020.</subfield>
+  </datafield>
+  <datafield tag="595" ind1=" " ind2=" ">
+    <subfield code="a">U-matic</subfield>
+  </datafield>
+  <datafield tag="650" ind1="1" ind2="7">
+    <subfield code="2">SzGeCERN</subfield>
+    <subfield code="a">History</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="9">review</subfield>
+    <subfield code="a">LHC</subfield>
+  </datafield>
+  <datafield tag="690" ind1="C" ind2=" ">
+    <subfield code="a">reviewed</subfield>
+  </datafield>
+  <datafield tag="690" ind1="C" ind2=" ">
+    <subfield code="a">movingimages</subfield>
+  </datafield>
+  <datafield tag="773" ind1=" " ind2=" ">
+    <subfield code="p">French version</subfield>
+    <subfield code="u">http://cdsweb.cern.ch/search.py?recid=42940</subfield>
+  </datafield>
+  <datafield tag="773" ind1=" " ind2=" ">
+    <subfield code="p">Italian version</subfield>
+    <subfield code="u">http://cdsweb.cern.ch/search.py?recid=42948</subfield>
+  </datafield>
+  <datafield tag="773" ind1=" " ind2=" ">
+    <subfield code="p">German version</subfield>
+    <subfield code="u">http://cdsweb.cern.ch/search.py?recid=42949</subfield>
+  </datafield>
+  <datafield tag="773" ind1=" " ind2=" ">
+    <subfield code="p">Spanish Version</subfield>
+    <subfield code="u">https://cds.cern.ch/record/1024510</subfield>
+  </datafield>
+  <datafield tag="773" ind1=" " ind2=" ">
+    <subfield code="p">Hungarian Version</subfield>
+    <subfield code="u">https://cds.cern.ch/record/1026590</subfield>
+  </datafield>
+  <datafield tag="773" ind1=" " ind2=" ">
+    <subfield code="o">AVW.project.607</subfield>
+    <subfield code="r">CERN-MOVIE-1998-001</subfield>
+  </datafield>
+  <datafield tag="852" ind1=" " ind2=" ">
+    <subfield code="a">510-R-005</subfield>
+    <subfield code="c">CM-A0000006</subfield>
+  </datafield>
+  <datafield tag="852" ind1=" " ind2=" ">
+    <subfield code="a">510-R-036</subfield>
+    <subfield code="c">CM-A00000010</subfield>
+    <subfield code="x">DVD</subfield>
+  </datafield>
+  <datafield tag="852" ind1=" " ind2=" ">
+    <subfield code="a">698</subfield>
+    <subfield code="c">CM-A00000062</subfield>
+    <subfield code="t">1</subfield>
+    <subfield code="x">U-matic SP</subfield>
+  </datafield>
+  <datafield tag="852" ind1=" " ind2=" ">
+    <subfield code="a">698</subfield>
+    <subfield code="t">2</subfield>
+    <subfield code="x">VHS</subfield>
+  </datafield>
+  <datafield tag="852" ind1=" " ind2=" ">
+    <subfield code="a">Not-in-Inventory</subfield>
+    <subfield code="c">CM-A00000071</subfield>
+  </datafield>
+  <datafield tag="856" ind1="7" ind2=" ">
+    <subfield code="2">EOS</subfield>
+    <subfield code="q">MKV</subfield>
+    <subfield code="d">/eos/media/cds/public/www/digital-memory/media-archive/video/open/mkv/pm_C1V1_CM-A00000071-009.mkv</subfield>
+    <subfield code="w">(PICTURAE:MD5)CM-A00000071-009.mkv;f1a132c455e4f88755c60987b8781992</subfield>
+  </datafield>
+  <datafield tag="856" ind1="7" ind2=" ">
+    <subfield code="2">EOS</subfield>
+    <subfield code="q">MOV</subfield>
+    <subfield code="d">/eos/media/cds/public/www/digital-memory/media-archive/video/open/mov/am_C1V1_CM-A00000071-009.mov</subfield>
+    <subfield code="w">(PICTURAE:MD5)CM-A00000071-009.mov;0aa1e89232d02827072fd30c9821283e</subfield>
+  </datafield>
+  <datafield tag="856" ind1="4" ind2=" ">
+    <subfield code="2">EOS</subfield>
+    <subfield code="q">MP4</subfield>
+    <subfield code="u">http://cern.ch/digital-memory/media-archive/video/open/mp4/ac_C1V1_CM-A00000071-009.mp4</subfield>
+    <subfield code="y">Video-CM-A00000071-009</subfield>
+    <subfield code="z">mp4 video format (640x360)</subfield>
+    <subfield code="w">(PICTURAE:MD5)CM-A00000071-009.mp4;1a25b493e49bbd3183cbf94cd125b944</subfield>
+    <subfield code="x">Reviewed and recovered by Tom Barthelemy in Decembre 2020</subfield>
+  </datafield>
+  <datafield tag="856" ind1="4" ind2=" ">
+    <subfield code="2">EOS</subfield>
+    <subfield code="x">fixed</subfield>
+    <subfield code="q">MP4</subfield>
+    <subfield code="u">http://cern.ch/digital-memory/media-archive/video/open/mp4/CM-A00000349-077.mp4</subfield>
+    <subfield code="y">Video-CM-A00000349-077</subfield>
+    <subfield code="z">mp4 video format (640x360)</subfield>
+    <subfield code="w">(PICTURAE:MD5)CM-A00000349-077.mp4;8738c5cbc97a8ef428648941bad9b00e</subfield>
+    <subfield code="x">Reviewed byTom Barthelemy in Novembre 2020</subfield>
+  </datafield>
+  <datafield tag="856" ind1="7" ind2=" ">
+    <subfield code="2">EOS</subfield>
+    <subfield code="x">fixed</subfield>
+    <subfield code="q">MOV</subfield>
+    <subfield code="d">/eos/media/cds/public/www/digital-memory/media-archive/video/open/mov/CM-A00000349-077.mov</subfield>
+    <subfield code="w">(PICTURAE:MD5)CM-A00000349-077.mov;1484c3de8c2186f7991b13252faf9e75</subfield>
+  </datafield>
+  <datafield tag="859" ind1=" " ind2=" ">
+    <subfield code="f">Jacques.Fichet@cern.ch</subfield>
+  </datafield>
+  <datafield tag="859" ind1=" " ind2=" ">
+    <subfield code="f">noemi.caraban.gonzalez@cern.ch</subfield>
+  </datafield>
+  <datafield tag="859" ind1=" " ind2=" ">
+    <subfield code="f">vmo-restictedrights@cern.ch</subfield>
+  </datafield>
+  <datafield tag="916" ind1=" " ind2=" ">
+    <subfield code="s">n</subfield>
+    <subfield code="w">200218</subfield>
+  </datafield>
+  <datafield tag="960" ind1=" " ind2=" ">
+    <subfield code="a">85</subfield>
+  </datafield>
+  <datafield tag="961" ind1=" " ind2=" ">
+    <subfield code="c">20070607</subfield>
+    <subfield code="h">1006</subfield>
+    <subfield code="l">MMD01</subfield>
+    <subfield code="x">20020423</subfield>
+  </datafield>
+  <datafield tag="961" ind1=" " ind2=" ">
+    <subfield code="a">Tom Barth\xc3\xa9l\xc3\xa9my</subfield>
+    <subfield code="b">Curator</subfield>
+    <subfield code="x">2021-03-01</subfield>
+  </datafield>
+  <datafield tag="963" ind1=" " ind2=" ">
+    <subfield code="a">PUBLIC</subfield>
+  </datafield>
+  <datafield tag="970" ind1=" " ind2=" ">
+    <subfield code="a">AVW.clip.785</subfield>
+  </datafield>
+  <datafield tag="970" ind1=" " ind2=" ">
+    <subfield code="d">https://videos.cern.ch/record/42939</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">PUBLVIDEOMOVIE</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="b">VIDEOMEDIALAB</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="c">MIGRATED</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">VIDEOARC</subfield>
+  </datafield>
+</record>
+</collection>
+<collection xmlns="http://www.loc.gov/MARC21/slim">
+<record>
+  <controlfield tag="001">42904</controlfield>
+  <controlfield tag="003">SzGeCERN</controlfield>
+  <controlfield tag="005">20201204151659.0</controlfield>
+  <datafield tag="035" ind1=" " ind2=" ">
+    <subfield code="9">PHOPHO</subfield>
+    <subfield code="a">0004333</subfield>
+  </datafield>
+  <datafield tag="037" ind1=" " ind2=" ">
+    <subfield code="a">CERN-MOVIE-1996-001-001</subfield>
+  </datafield>
+  <datafield tag="041" ind1=" " ind2=" ">
+    <subfield code="a">eng</subfield>
+  </datafield>
+  <datafield tag="100" ind1=" " ind2=" ">
+    <subfield code="a">Jean Leyder</subfield>
+    <subfield code="e">Script and Director</subfield>
+  </datafield>
+  <datafield tag="245" ind1=" " ind2=" ">
+    <subfield code="a">Stars Underground</subfield>
+  </datafield>
+  <datafield tag="260" ind1=" " ind2=" ">
+    <subfield code="c">1996</subfield>
+  </datafield>
+  <datafield tag="269" ind1=" " ind2=" ">
+    <subfield code="b">CERN Copyright 1996</subfield>
+  </datafield>
+  <datafield tag="269" ind1=" " ind2=" ">
+    <subfield code="c">1996-01-01</subfield>
+  </datafield>
+  <datafield tag="300" ind1=" " ind2=" ">
+    <subfield code="a">00:11:59.800</subfield>
+    <subfield code="b">720x576 4/3, 25.00</subfield>
+    <subfield code="c">25</subfield>
+    <subfield code="d">720x576</subfield>
+    <subfield code="e">4:3</subfield>
+  </datafield>
+  <datafield tag="340" ind1=" " ind2=" ">
+    <subfield code="a">Betacam SP</subfield>
+  </datafield>
+  <datafield tag="340" ind1=" " ind2=" ">
+    <subfield code="a">U-matic SP low-band</subfield>
+  </datafield>
+  <datafield tag="340" ind1=" " ind2=" ">
+    <subfield code="a">U-matic S SP</subfield>
+    <subfield code="j">Copy</subfield>
+  </datafield>
+  <datafield tag="500" ind1=" " ind2=" ">
+    <subfield code="a">The video was digitized from its original recording as part of the CERN Digital Memory project</subfield>
+  </datafield>
+  <datafield tag="520" ind1=" " ind2=" ">
+    <subfield code="a">An imaginary voyage in time where we were witness of the birth of the universe itself, the time of the Big-Bang 15 billion years ago. Particules from the very first moments of time : protons, neutrons and electrons, and also much more energetic one. These particules are preparing to interact collider and generating others which will be the birth to the stars ........</subfield>
+  </datafield>
+  <datafield tag="541" ind1=" " ind2=" ">
+    <subfield code="e">P139a</subfield>
+  </datafield>
+  <datafield tag="542" ind1=" " ind2=" ">
+    <subfield code="d">CERN</subfield>
+    <subfield code="g">1996</subfield>
+  </datafield>
+  <datafield tag="583" ind1="1" ind2=" ">
+    <subfield code="2">pda</subfield>
+    <subfield code="3">Betacam SP</subfield>
+    <subfield code="5">SzGeCERN</subfield>
+    <subfield code="6">disks/DELIVERY44</subfield>
+    <subfield code="a">digitized</subfield>
+    <subfield code="b">S1V1</subfield>
+    <subfield code="c">202011</subfield>
+    <subfield code="f">CERN Digital Memory Project</subfield>
+    <subfield code="i">OPEN-REFINE Project SUM-NOV2020</subfield>
+    <subfield code="k">PICTURAE</subfield>
+    <subfield code="u">https://cds.cern.ch/record/2257246</subfield>
+    <subfield code="n">13,3933333333333</subfield>
+    <subfield code="o">minutes</subfield>
+    <subfield code="x"> Low RF, noisy picture</subfield>
+  </datafield>
+  <datafield tag="595" ind1=" " ind2=" ">
+    <subfield code="a">The digitized video file was linked to this record in Nov.2020.</subfield>
+  </datafield>
+  <datafield tag="595" ind1=" " ind2=" ">
+    <subfield code="a">Betacam SP</subfield>
+  </datafield>
+  <datafield tag="650" ind1="1" ind2="7">
+    <subfield code="2">SzGeCERN</subfield>
+    <subfield code="a">History</subfield>
+  </datafield>
+  <datafield tag="690" ind1="C" ind2=" ">
+    <subfield code="a">reviewed</subfield>
+  </datafield>
+  <datafield tag="690" ind1="C" ind2=" ">
+    <subfield code="a">movingimages</subfield>
+  </datafield>
+  <datafield tag="773" ind1=" " ind2=" ">
+    <subfield code="o">AVW.project.547</subfield>
+    <subfield code="r">CERN-MOVIE-1996-001</subfield>
+  </datafield>
+  <datafield tag="773" ind1=" " ind2=" ">
+    <subfield code="p">French version</subfield>
+    <subfield code="u">https://cds.cern.ch/record/42905</subfield>
+  </datafield>
+  <datafield tag="773" ind1=" " ind2=" ">
+    <subfield code="p">Italian version</subfield>
+    <subfield code="u">https://cds.cern.ch/record/42908</subfield>
+  </datafield>
+  <datafield tag="773" ind1=" " ind2=" ">
+    <subfield code="p">German version</subfield>
+    <subfield code="u">https://cds.cern.ch/record/42909</subfield>
+  </datafield>
+  <datafield tag="852" ind1=" " ind2=" ">
+    <subfield code="a">698</subfield>
+    <subfield code="c">CM-A00000062</subfield>
+    <subfield code="x">U-matic SP low-band</subfield>
+  </datafield>
+  <datafield tag="852" ind1=" " ind2=" ">
+    <subfield code="a">698</subfield>
+    <subfield code="c">CM-A00000071</subfield>
+    <subfield code="t">1</subfield>
+    <subfield code="x">U-matic S SP</subfield>
+  </datafield>
+  <datafield tag="852" ind1=" " ind2=" ">
+    <subfield code="a">Not-in-Inventory</subfield>
+    <subfield code="c">CM-A00000349</subfield>
+  </datafield>
+  <datafield tag="856" ind1="7" ind2=" ">
+    <subfield code="2">EOS</subfield>
+    <subfield code="q">MKV</subfield>
+    <subfield code="d">/eos/media/cds/public/www/digital-memory/media-archive/video/open/mkv/pm_S1V1_CM-A00000349-055.mkv</subfield>
+    <subfield code="w">(PICTURAE:MD5)CM-A00000349-055.mkv;f31c862ba0474ee7211f887501e38288</subfield>
+  </datafield>
+  <datafield tag="856" ind1="7" ind2=" ">
+    <subfield code="2">EOS</subfield>
+    <subfield code="q">MOV</subfield>
+    <subfield code="d">/eos/media/cds/public/www/digital-memory/media-archive/video/open/mov/am_S1V1_CM-A00000349-055.mov</subfield>
+    <subfield code="w">(PICTURAE:MD5)CM-A00000349-055.mov;5c662468d19a874c15b7943595aae0c7</subfield>
+  </datafield>
+  <datafield tag="856" ind1="4" ind2=" ">
+    <subfield code="2">EOS</subfield>
+    <subfield code="q">MP4</subfield>
+    <subfield code="u">http://cern.ch/digital-memory/media-archive/video/open/mp4/ac_S1V1_CM-A00000349-055.mp4</subfield>
+    <subfield code="y">Video-CM-A00000349-055</subfield>
+    <subfield code="z">mp4 video format (640x360)</subfield>
+    <subfield code="w">(PICTURAE:MD5)CM-A00000349-055.mp4;b17486190b90c6d602c7c7ca2cba1876</subfield>
+    <subfield code="x">Reviewed and recovered by Tom Barthelemy in Decembre 2020</subfield>
+  </datafield>
+  <datafield tag="859" ind1=" " ind2=" ">
+    <subfield code="f">Jacques.Fichet@cern.ch</subfield>
+  </datafield>
+  <datafield tag="859" ind1=" " ind2=" ">
+    <subfield code="f">noemi.caraban.gonzalez@cern.ch</subfield>
+  </datafield>
+  <datafield tag="859" ind1=" " ind2=" ">
+    <subfield code="f">vmo-restictedrights@cern.ch</subfield>
+  </datafield>
+  <datafield tag="916" ind1=" " ind2=" ">
+    <subfield code="s">n</subfield>
+    <subfield code="w">200214</subfield>
+  </datafield>
+  <datafield tag="960" ind1=" " ind2=" ">
+    <subfield code="a">85</subfield>
+  </datafield>
+  <datafield tag="961" ind1=" " ind2=" ">
+    <subfield code="c">20070502</subfield>
+    <subfield code="h">1444</subfield>
+    <subfield code="l">MMD01</subfield>
+    <subfield code="x">20020405</subfield>
+  </datafield>
+  <datafield tag="963" ind1=" " ind2=" ">
+    <subfield code="a">PUBLIC</subfield>
+  </datafield>
+  <datafield tag="970" ind1=" " ind2=" ">
+    <subfield code="a">AVW.clip.725</subfield>
+  </datafield>
+  <datafield tag="970" ind1=" " ind2=" ">
+    <subfield code="d">https://videos.cern.ch/record/42904</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">PUBLVIDEOMOVIE</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="b">VIDEOMEDIALAB</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="c">MIGRATED</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">VIDEOARC</subfield>
+  </datafield>
+</record>
+</collection>

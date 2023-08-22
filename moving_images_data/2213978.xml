@@ -1,0 +1,150 @@
+<collection xmlns="http://www.loc.gov/MARC21/slim">
+<record>
+  <controlfield tag="001">2213978</controlfield>
+  <controlfield tag="003">SzGeCERN</controlfield>
+  <controlfield tag="005">20201204151651.0</controlfield>
+  <datafield tag="037" ind1=" " ind2=" ">
+    <subfield code="a">CERN-MOVIE-1991-011-002</subfield>
+  </datafield>
+  <datafield tag="041" ind1=" " ind2=" ">
+    <subfield code="a">ger</subfield>
+  </datafield>
+  <datafield tag="100" ind1=" " ind2=" ">
+    <subfield code="a">Pyramid FILMS</subfield>
+    <subfield code="e">Produced by</subfield>
+  </datafield>
+  <datafield tag="245" ind1=" " ind2=" ">
+    <subfield code="a">Powers of ten</subfield>
+    <subfield code="b">1. Deutsch version 2. English version</subfield>
+  </datafield>
+  <datafield tag="260" ind1=" " ind2=" ">
+    <subfield code="c">1991</subfield>
+  </datafield>
+  <datafield tag="269" ind1=" " ind2=" ">
+    <subfield code="b">Pyramid Productions Copyright</subfield>
+    <subfield code="c">1991-12-01</subfield>
+  </datafield>
+  <datafield tag="300" ind1=" " ind2=" ">
+    <subfield code="a">00:09:00.080 + 00:09:00</subfield>
+    <subfield code="b">720x576 4/3, 25.00</subfield>
+    <subfield code="c">25</subfield>
+    <subfield code="d">720x576</subfield>
+    <subfield code="e">4:3</subfield>
+  </datafield>
+  <datafield tag="340" ind1=" " ind2=" ">
+    <subfield code="a">U-matic S</subfield>
+    <subfield code="d">PAL</subfield>
+  </datafield>
+  <datafield tag="500" ind1=" " ind2=" ">
+    <subfield code="a">The video was digitized from its original recording as part of the CERN Digital Memory project</subfield>
+  </datafield>
+  <datafield tag="520" ind1=" " ind2=" ">
+    <subfield code="a">Film dealing with the relative size of things in the universe and the effect of adding another zero made by the office of Charles and Ray Eames for IBM</subfield>
+  </datafield>
+  <datafield tag="541" ind1=" " ind2=" ">
+    <subfield code="e">P138d</subfield>
+  </datafield>
+  <datafield tag="542" ind1=" " ind2=" ">
+    <subfield code="d">Pyramid Productions</subfield>
+    <subfield code="g">1991</subfield>
+  </datafield>
+  <datafield tag="583" ind1="1" ind2=" ">
+    <subfield code="2">pda</subfield>
+    <subfield code="3">U-Matic</subfield>
+    <subfield code="5">SzGeCERN</subfield>
+    <subfield code="6">disks/DELIVERY35</subfield>
+    <subfield code="a">digitized</subfield>
+    <subfield code="b">C1V1</subfield>
+    <subfield code="c">202011</subfield>
+    <subfield code="f">CERN Digital Memory Project</subfield>
+    <subfield code="i">OPEN-REFINE Project SUM-NOV2020</subfield>
+    <subfield code="k">PICTURAE</subfield>
+    <subfield code="u">https://cds.cern.ch/record/2257246</subfield>
+    <subfield code="n">8,79666666666667</subfield>
+    <subfield code="o">minutes</subfield>
+    <subfield code="x"> Low RF, noisy picture</subfield>
+  </datafield>
+  <datafield tag="595" ind1=" " ind2=" ">
+    <subfield code="a">The digitized video file was linked to this record in Nov.2020.</subfield>
+  </datafield>
+  <datafield tag="595" ind1=" " ind2=" ">
+    <subfield code="a">U-Matic</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="9">CERN</subfield>
+    <subfield code="a">P10</subfield>
+  </datafield>
+  <datafield tag="690" ind1="C" ind2=" ">
+    <subfield code="a">reviewed</subfield>
+  </datafield>
+  <datafield tag="690" ind1="C" ind2=" ">
+    <subfield code="a">movingimages</subfield>
+  </datafield>
+  <datafield tag="773" ind1=" " ind2=" ">
+    <subfield code="o">AVW.project.378</subfield>
+    <subfield code="r">CERN-MOVIE-1991-011</subfield>
+  </datafield>
+  <datafield tag="852" ind1=" " ind2=" ">
+    <subfield code="a">510-R-006</subfield>
+    <subfield code="c">CM-A00000028</subfield>
+  </datafield>
+  <datafield tag="852" ind1=" " ind2=" ">
+    <subfield code="a">Not-in-Inventory</subfield>
+    <subfield code="c">CM-A00000340</subfield>
+  </datafield>
+  <datafield tag="856" ind1="7" ind2=" ">
+    <subfield code="2">EOS</subfield>
+    <subfield code="q">MKV</subfield>
+    <subfield code="d">/eos/media/cds/public/www/digital-memory/media-archive/video/open/mkv/pm_C1V1_CM-A00000340-013.mkv</subfield>
+    <subfield code="w">(PICTURAE:MD5)CM-A00000340-013.mkv;aed9417d290ac4d6e32fd388968d205e</subfield>
+  </datafield>
+  <datafield tag="856" ind1="7" ind2=" ">
+    <subfield code="2">EOS</subfield>
+    <subfield code="q">MOV</subfield>
+    <subfield code="d">/eos/media/cds/public/www/digital-memory/media-archive/video/open/mov/am_C1V1_CM-A00000340-013.mov</subfield>
+    <subfield code="w">(PICTURAE:MD5)CM-A00000340-013.mov;21f7031c1d6bd869913c1329485c0c7b</subfield>
+  </datafield>
+  <datafield tag="856" ind1="4" ind2=" ">
+    <subfield code="2">EOS</subfield>
+    <subfield code="q">MP4</subfield>
+    <subfield code="u">http://cern.ch/digital-memory/media-archive/video/open/mp4/ac_C1V1_CM-A00000340-013.mp4</subfield>
+    <subfield code="y">Video-CM-A00000340-013</subfield>
+    <subfield code="z">mp4 video format (640x360)</subfield>
+    <subfield code="w">(PICTURAE:MD5)CM-A00000340-013.mp4;7a0e4ef8eb0b82cb22ead61a37163b72</subfield>
+    <subfield code="x">Reviewed and recovered by Tom Barthelemy in Decembre 2020</subfield>
+  </datafield>
+  <datafield tag="859" ind1=" " ind2=" ">
+    <subfield code="f">christiane.montarbaud@cern.ch</subfield>
+  </datafield>
+  <datafield tag="960" ind1=" " ind2=" ">
+    <subfield code="a">85</subfield>
+  </datafield>
+  <datafield tag="961" ind1=" " ind2=" ">
+    <subfield code="c">20061205</subfield>
+    <subfield code="h">0946</subfield>
+    <subfield code="l">MMD01</subfield>
+    <subfield code="x">20061205</subfield>
+  </datafield>
+  <datafield tag="963" ind1=" " ind2=" ">
+    <subfield code="a">PUBLIC</subfield>
+  </datafield>
+  <datafield tag="970" ind1=" " ind2=" ">
+    <subfield code="a">AVW.clip.546</subfield>
+  </datafield>
+  <datafield tag="970" ind1=" " ind2=" ">
+    <subfield code="d">https://videos.cern.ch/record/2213978</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">PUBLVIDEOMOVIE</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="b">VIDEOMEDIALAB</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="c">MIGRATED</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">VIDEOARC</subfield>
+  </datafield>
+</record>
+</collection>

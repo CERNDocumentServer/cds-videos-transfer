@@ -1,0 +1,106 @@
+/* Introduction section */
+#new_records {
+    padding-top: 10%;
+    margin-left: 29.5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#introduction { 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 2%;
+    margin-top: 3%;
+}
+
+#introduction h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+
+#introduction p {
+    width: 70%;
+    margin: 2%;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+#introduction #working_records {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin: 2%;
+}
+
+#introduction #working_records p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1%;
+}
+
+#introduction #broken_records {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin: 2%;
+}
+
+#introduction #broken_records p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1%;
+}
+
+/* Body section */
+#forms {
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#forms div {
+    height: 100%;
+    width: 30%;
+    margin-right: 1%;
+}
+
+#forms button {
+    justify-content: end;
+    margin-bottom: 1%;
+}
+
+#json_content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2%;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+#json_content div {
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    max-height: 500px;
+    width: 45%;
+    margin: 2.5%;
+    margin-top: 0%;
+    overflow: auto;
+}
+
+.break {
+    flex-basis: 100%;
+    height: 0;
+}
