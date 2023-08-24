@@ -153,7 +153,7 @@ def creating_jsons(blob_list, missing_tags=False):
 # Make video post and video put requests
 def video_post_put(res_project, headers, json_record, progress_list):
     video_req_fields = ['title', 'description', 'language', 'date', 'contributors']
-    video_add_fields = ['keywords']
+    video_add_fields = ['accelerator_experiment', 'agency_code', 'category', 'copyright', '_digitization', 'doi', 'duration', 'external_system_identifiers', 'featured', 'internal_note', 'internal_categories', 'Press', 'keywords', 'language', 'license', 'note', 'publication_date', 'recid', 'related_links', 'report_number', 'translations', 'type', 'vr', 'location', 'original_source', 'physical_medium']
 
     # Variable to capture video failed fields
     failed_fields = []
@@ -178,9 +178,15 @@ def video_post_put(res_project, headers, json_record, progress_list):
 
     for field in video_add_fields:
         try:
+            if field == '_digitization':
+                json_record[field].append({'additional_files': str(json_record['_files'])})
+                json_record[field]['quality_control_info'] = str(json_record[field]['quality_control_info'])
+                json_record[field]['related_links_info'] = str(json_record[field]['related_links_info'])
             body[field] = json_record[field]
         except:
             continue
+
+    #print(body)
 
      # Ending thread and providing video broken record information
     if len(failed_fields) > 0:
@@ -220,6 +226,14 @@ def video_post_put(res_project, headers, json_record, progress_list):
 
             progress_list.append((True, json_record['_files'][index_video]['key'], headers['Authorization'], res_video.json()['id'], json_record['recid']))
 
+            '''
+            # Still need to be taught about and implemented. Publish as soon as we have one format ready? Publish only when all formats are available?
+            headers['content-type'] = "application/json"
+            body = {}
+            res_publish = req.post("https://localhost:5000/api/deposits/" + res_video.json()['metadata']['_deposit']['id'] + "/actions/publish", json=body, headers=headers, verify=False)
+
+            '''
+                
         else:
             progress_list.append((False, json_record['_files'][0]['key'], '(Video) Video file not compatible or video not found', json_record['recid']))
 
@@ -325,7 +339,7 @@ def upload_json(json_records, progress_list):
             res_project = req.post("https://localhost:5000/api/deposits/project/", json=body, headers=headers, verify=False)
 
             if res_project.status_code != 201:
-                print(res_project)
+                #print(res_project.content)
                 progress_list.append((False, json_record['_files'][0]['key'], '(Project) Bad response', json_record['recid']))
 
             else:

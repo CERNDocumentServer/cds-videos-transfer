@@ -127,8 +127,8 @@ def main():
         #for file in glob.glob('../moving_images_data/persistent_data/moving_images_*.xml'):
         #    os.remove(file)
 
-        #if not os.path.exists('./moving_images_data/moving_images_0.xml'):
-        fetch_data()
+        if not os.path.exists('./moving_images_data/moving_images_0.xml'):
+            fetch_data()
 
         for file in glob.glob('./moving_images_data/moving_images_*.xml'):
             blob_list += creating_blobs(file)
@@ -238,21 +238,21 @@ def main():
     f_fails.close()
 
     '''
-    with open('../access_token_local') as f:
+    with open('../access_token') as f:
         auth_token = f.read()[:-1]
     headers = {'Authorization': f'Bearer {auth_token}', 'content-type': 'application/vnd.project.partial+json'}
-    body = {"$schema": "https://localhost:5000/schemas/deposits/records/videos/project/project-v1.0.0.json"}
-    #body = {"$schema": "https://sandbox-videos.web.cern.ch/schemas/deposits/records/videos/project/project-v1.0.0.json"}
-    test_project = req.post("https://localhost:5000/api/deposits/project/", json=body, headers=headers, verify=False)
-    #test_project = req.post("https://sandbox-videos.web.cern.ch/api/deposits/project/", json=body, headers=headers)
+    #body = {"$schema": "https://localhost:5000/schemas/deposits/records/videos/project/project-v1.0.0.json"}
+    body = {"$schema": "https://sandbox-videos.web.cern.ch/schemas/deposits/records/videos/project/project-v1.0.0.json"}
+    #test_project = req.post("https://localhost:5000/api/deposits/project/", json=body, headers=headers, verify=False)
+    test_project = req.post("https://sandbox-videos.web.cern.ch/api/deposits/project/", json=body, headers=headers)
     #print(test_project.content, '\n')
 
     headers['content-type'] = "application/vnd.video.partial+json"
     body["$schema"] = "http://sandbox-videos.web.cern.ch/schemas/deposits/records/videos/video/video-v1.0.0.json"
     body["_project_id"] = json.loads(str(test_project.content)[2:-1])['id']
     body["title"] = {"title": blob_list[0]['245__']['a'].replace(' ', '_')}
-    test_video = req.post("https://localhost:5000/api/deposits/video/", json=body, headers=headers, verify=False)
-    #test_video = req.post("https://sandbox-videos.web.cern.ch/api/deposits/video/", json=body, headers=headers)
+    #test_video = req.post("https://localhost:5000/api/deposits/video/", json=body, headers=headers, verify=False)
+    test_video = req.post("https://sandbox-videos.web.cern.ch/api/deposits/video/", json=body, headers=headers)
     #print(test_video.content, '\n')
 
     #headers['content-type'] = 'video/mp4'
@@ -265,6 +265,8 @@ def main():
     test_flow = req.post("https://localhost:5000/api/flows/", json=body, headers=headers, verify=False)
     #print(test_flow.content, '\n')
     '''
+
+
     
 
 if __name__ == '__main__':
@@ -307,6 +309,16 @@ fetch("https://sandbox-videos.web.cern.ch/api/flows/", {
     "content-type": "application/json",
   },
   "body": "{\"version_id\":\"55b65bc4-0580-4961-ad36-b26bffe76c0f\",\"key\":\"test_video.mp4\",\"bucket_id\":\"281dfbed-2a2e-425b-9195-959173fa9f64\",\"deposit_id\":\"9b2d22439fc14c68894d11d9be592d33\"}",
+  "method": "POST"
+});
+
+PUBLISH
+fetch("https://sandbox-videos.web.cern.ch/api/deposits/video/03a8a32d6866441baa7c7540bca01e48/actions/publish", {
+  "headers": {
+    "authorization": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2OTI5NTU0NTUsInN1YiI6IjE3IiwianRpIjoiM2ZiMjVjMjItMWJhYy00ZjUwLTllMzItYmJhZGFlZjJlZTAzIn0.ZVJ78gZFfRtKIv0xWO3DsPCAFTJ4APlrXJ1fqQy32ms",
+    "content-type": "application/json",
+  },
+  "body": null,
   "method": "POST"
 });
 '''
