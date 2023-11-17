@@ -1,0 +1,296 @@
+<collection xmlns="http://www.loc.gov/MARC21/slim">
+<record>
+  <controlfield tag="001">1045231</controlfield>
+  <controlfield tag="005">20210324111135.0</controlfield>
+  <datafield tag="037" ind1=" " ind2=" ">
+    <subfield code="a">CERN-MOVIE-1993-006-001</subfield>
+  </datafield>
+  <datafield tag="041" ind1=" " ind2=" ">
+    <subfield code="a">eng</subfield>
+  </datafield>
+  <datafield tag="100" ind1=" " ind2=" ">
+    <subfield code="a">CERN Audiovisual Unit</subfield>
+    <subfield code="e">Produced by</subfield>
+  </datafield>
+  <datafield tag="245" ind1=" " ind2=" ">
+    <subfield code="a">The installation of the L3 Silicon Microvertex Detector</subfield>
+  </datafield>
+  <datafield tag="260" ind1=" " ind2=" ">
+    <subfield code="c">1993</subfield>
+  </datafield>
+  <datafield tag="269" ind1=" " ind2=" ">
+    <subfield code="c">1993-03-01</subfield>
+  </datafield>
+  <datafield tag="300" ind1=" " ind2=" ">
+    <subfield code="a">00:08:57.040</subfield>
+    <subfield code="b">720x576 4/3, 25.00</subfield>
+    <subfield code="c">25</subfield>
+    <subfield code="d">720x576</subfield>
+    <subfield code="e">4:3</subfield>
+  </datafield>
+  <datafield tag="340" ind1=" " ind2=" ">
+    <subfield code="a">U-matic SP</subfield>
+    <subfield code="d">PAL</subfield>
+  </datafield>
+  <datafield tag="500" ind1=" " ind2=" ">
+    <subfield code="a">The video was digitized from its original recording as part of the CERN Digital Memory project</subfield>
+  </datafield>
+  <datafield tag="520" ind1=" " ind2=" ">
+    <subfield code="a">The different stages of the installation of the new Silicon Microvertex Detector, a new promissing detector of L3.</subfield>
+  </datafield>
+  <datafield tag="541" ind1=" " ind2=" ">
+    <subfield code="e">M52</subfield>
+  </datafield>
+  <datafield tag="542" ind1=" " ind2=" ">
+    <subfield code="d">CERN</subfield>
+    <subfield code="g">1993</subfield>
+  </datafield>
+  <datafield tag="583" ind1=" " ind2=" ">
+    <subfield code="a">curation</subfield>
+    <subfield code="c">Decembre 2020</subfield>
+    <subfield code="8">a</subfield>
+    <subfield code="z"> -Audio: TRUE -Video Signal: TRUE -Multiple: FALSE -Relevant to CERN: TRUE -Duplicate: FALSE</subfield>
+  </datafield>
+  <datafield tag="595" ind1=" " ind2=" ">
+    <subfield code="a">CERN EDS</subfield>
+  </datafield>
+  <datafield tag="595" ind1=" " ind2=" ">
+    <subfield code="a">The digitized video file was linked to this record in Dec.2020.</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="9">review</subfield>
+    <subfield code="a">Detector</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="9">review</subfield>
+    <subfield code="a">L3</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="9">review</subfield>
+    <subfield code="a">LEP</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="9">review</subfield>
+    <subfield code="a">SMD</subfield>
+  </datafield>
+  <datafield tag="690" ind1="C" ind2=" ">
+    <subfield code="a">publvideomovie</subfield>
+  </datafield>
+  <datafield tag="690" ind1="C" ind2=" ">
+    <subfield code="a">movingimages</subfield>
+  </datafield>
+  <datafield tag="690" ind1="C" ind2=" ">
+    <subfield code="a">reviewed</subfield>
+  </datafield>
+  <datafield tag="773" ind1=" " ind2=" ">
+    <subfield code="o">AVW.project.453</subfield>
+    <subfield code="r">CERN-MOVIE-1993-006</subfield>
+  </datafield>
+  <datafield tag="773" ind1=" " ind2=" ">
+    <subfield code="p">More about L3 experiment</subfield>
+    <subfield code="u">http://l3.web.cern.ch/l3/</subfield>
+  </datafield>
+  <datafield tag="852" ind1=" " ind2=" ">
+    <subfield code="9">Guess</subfield>
+    <subfield code="a">510-R-005</subfield>
+    <subfield code="c">CM-A00000014</subfield>
+    <subfield code="x">Betacam SP</subfield>
+  </datafield>
+  <datafield tag="856" ind1="7" ind2=" ">
+    <subfield code="2">MediaArchive</subfield>
+    <subfield code="d">\\cern.ch\dfs\Services\MediaArchive\Video\Masters\Movies\CERN\1993\CERN-MOVIE-1993-006\Final_Output\CERN-MOVIE-1993-006-001.avi</subfield>
+    <subfield code="x">Absolute master path</subfield>
+  </datafield>
+  <datafield tag="856" ind1="7" ind2=" ">
+    <subfield code="2">MediaArchive</subfield>
+    <subfield code="u">https://mediaarchive.cern.ch/MediaArchive/Video/Public/Movies/CERN/1993/CERN-MOVIE-1993-006/CERN-MOVIE-1993-006-001/CERN-MOVIE-1993-006-001-1136-kbps-640x480-audio-64-kbps-stereo.mp4</subfield>
+    <subfield code="x">mp41136</subfield>
+    <subfield code="y">1136 kbps maxH 480 25 fps audio 64 kbps 48 kHz stereo</subfield>
+  </datafield>
+  <datafield tag="856" ind1="7" ind2=" ">
+    <subfield code="2">MediaArchive</subfield>
+    <subfield code="u">https://mediaarchive.cern.ch/MediaArchive/Video/Public/Movies/CERN/1993/CERN-MOVIE-1993-006/CERN-MOVIE-1993-006-001/CERN-MOVIE-1993-006-001-686-kbps-480x360-audio-64-kbps-stereo.mp4</subfield>
+    <subfield code="x">mp40686</subfield>
+    <subfield code="y">0686 kbps maxH 360 25 fps audio 64 kbps 48 kHz stereo</subfield>
+  </datafield>
+  <datafield tag="856" ind1="7" ind2=" ">
+    <subfield code="2">MediaArchive</subfield>
+    <subfield code="u">https://mediaarchive.cern.ch/MediaArchive/Video/Public/Movies/CERN/1993/CERN-MOVIE-1993-006/CERN-MOVIE-1993-006-001/CERN-MOVIE-1993-006-001-286-kbps-320x240-audio-64-kbps-stereo.mp4</subfield>
+    <subfield code="x">mp40286</subfield>
+    <subfield code="y">0286 kbps maxH 240 15 fps audio 64 kbps 48 kHz stereo</subfield>
+  </datafield>
+  <datafield tag="856" ind1="7" ind2=" ">
+    <subfield code="2">MediaArchive</subfield>
+    <subfield code="u">https://mediaarchive.cern.ch/MediaArchive/Video/Public/Movies/CERN/1993/CERN-MOVIE-1993-006/CERN-MOVIE-1993-006-001/CERN-MOVIE-1993-006-001-posterframe-480x360-at-5-percent.jpg</subfield>
+    <subfield code="x">jpgposterframe</subfield>
+    <subfield code="y">posterframe 480x360 at 5 percent</subfield>
+  </datafield>
+  <datafield tag="856" ind1="7" ind2=" ">
+    <subfield code="2">MediaArchive</subfield>
+    <subfield code="u">https://mediaarchive.cern.ch/MediaArchive/Video/Public/Movies/CERN/1993/CERN-MOVIE-1993-006/CERN-MOVIE-1993-006-001/CERN-MOVIE-1993-006-001-posterframe-480x360-at-15-percent.jpg</subfield>
+    <subfield code="x">jpgposterframe</subfield>
+    <subfield code="y">posterframe 480x360 at 15 percent</subfield>
+  </datafield>
+  <datafield tag="856" ind1="7" ind2=" ">
+    <subfield code="2">MediaArchive</subfield>
+    <subfield code="u">https://mediaarchive.cern.ch/MediaArchive/Video/Public/Movies/CERN/1993/CERN-MOVIE-1993-006/CERN-MOVIE-1993-006-001/CERN-MOVIE-1993-006-001-posterframe-480x360-at-25-percent.jpg</subfield>
+    <subfield code="x">jpgposterframe</subfield>
+    <subfield code="y">posterframe 480x360 at 25 percent</subfield>
+  </datafield>
+  <datafield tag="856" ind1="7" ind2=" ">
+    <subfield code="2">MediaArchive</subfield>
+    <subfield code="u">https://mediaarchive.cern.ch/MediaArchive/Video/Public/Movies/CERN/1993/CERN-MOVIE-1993-006/CERN-MOVIE-1993-006-001/CERN-MOVIE-1993-006-001-posterframe-480x360-at-35-percent.jpg</subfield>
+    <subfield code="x">jpgposterframe</subfield>
+    <subfield code="y">posterframe 480x360 at 35 percent</subfield>
+  </datafield>
+  <datafield tag="856" ind1="7" ind2=" ">
+    <subfield code="2">MediaArchive</subfield>
+    <subfield code="u">https://mediaarchive.cern.ch/MediaArchive/Video/Public/Movies/CERN/1993/CERN-MOVIE-1993-006/CERN-MOVIE-1993-006-001/CERN-MOVIE-1993-006-001-posterframe-480x360-at-45-percent.jpg</subfield>
+    <subfield code="x">jpgposterframe</subfield>
+    <subfield code="y">posterframe 480x360 at 45 percent</subfield>
+  </datafield>
+  <datafield tag="856" ind1="7" ind2=" ">
+    <subfield code="2">MediaArchive</subfield>
+    <subfield code="u">https://mediaarchive.cern.ch/MediaArchive/Video/Public/Movies/CERN/1993/CERN-MOVIE-1993-006/CERN-MOVIE-1993-006-001/CERN-MOVIE-1993-006-001-posterframe-480x360-at-55-percent.jpg</subfield>
+    <subfield code="x">jpgposterframe</subfield>
+    <subfield code="y">posterframe 480x360 at 55 percent</subfield>
+  </datafield>
+  <datafield tag="856" ind1="7" ind2=" ">
+    <subfield code="2">MediaArchive</subfield>
+    <subfield code="u">https://mediaarchive.cern.ch/MediaArchive/Video/Public/Movies/CERN/1993/CERN-MOVIE-1993-006/CERN-MOVIE-1993-006-001/CERN-MOVIE-1993-006-001-posterframe-480x360-at-65-percent.jpg</subfield>
+    <subfield code="x">jpgposterframe</subfield>
+    <subfield code="y">posterframe 480x360 at 65 percent</subfield>
+  </datafield>
+  <datafield tag="856" ind1="7" ind2=" ">
+    <subfield code="2">MediaArchive</subfield>
+    <subfield code="u">https://mediaarchive.cern.ch/MediaArchive/Video/Public/Movies/CERN/1993/CERN-MOVIE-1993-006/CERN-MOVIE-1993-006-001/CERN-MOVIE-1993-006-001-posterframe-480x360-at-75-percent.jpg</subfield>
+    <subfield code="x">jpgposterframe</subfield>
+    <subfield code="y">posterframe 480x360 at 75 percent</subfield>
+  </datafield>
+  <datafield tag="856" ind1="7" ind2=" ">
+    <subfield code="2">MediaArchive</subfield>
+    <subfield code="u">https://mediaarchive.cern.ch/MediaArchive/Video/Public/Movies/CERN/1993/CERN-MOVIE-1993-006/CERN-MOVIE-1993-006-001/CERN-MOVIE-1993-006-001-posterframe-480x360-at-85-percent.jpg</subfield>
+    <subfield code="x">jpgposterframe</subfield>
+    <subfield code="y">posterframe 480x360 at 85 percent</subfield>
+  </datafield>
+  <datafield tag="856" ind1="7" ind2=" ">
+    <subfield code="2">MediaArchive</subfield>
+    <subfield code="u">https://mediaarchive.cern.ch/MediaArchive/Video/Public/Movies/CERN/1993/CERN-MOVIE-1993-006/CERN-MOVIE-1993-006-001/CERN-MOVIE-1993-006-001-posterframe-480x360-at-95-percent.jpg</subfield>
+    <subfield code="x">jpgposterframe</subfield>
+    <subfield code="y">posterframe 480x360 at 95 percent</subfield>
+  </datafield>
+  <datafield tag="856" ind1="7" ind2=" ">
+    <subfield code="2">MediaArchive</subfield>
+    <subfield code="u">https://mediaarchive.cern.ch/MediaArchive/Video/Public/Movies/CERN/1993/CERN-MOVIE-1993-006/CERN-MOVIE-1993-006-001/proxy-CERN-MOVIE-1993-006-001-posterframe-480x360-at-5-percent.jpg</subfield>
+    <subfield code="x">jpgproxy-posterframe</subfield>
+    <subfield code="y">proxy-posterframe 480x360 at 5 percent</subfield>
+  </datafield>
+  <datafield tag="856" ind1="7" ind2=" ">
+    <subfield code="2">MediaArchive</subfield>
+    <subfield code="u">https://mediaarchive.cern.ch/MediaArchive/Video/Public/Movies/CERN/1993/CERN-MOVIE-1993-006/CERN-MOVIE-1993-006-001/CERN-MOVIE-1993-006-001-thumbnail-135x101-at-5-percent.jpg</subfield>
+    <subfield code="x">jpgthumbnail</subfield>
+    <subfield code="y">thumbnail 135x101 at 5 percent</subfield>
+  </datafield>
+  <datafield tag="856" ind1="7" ind2=" ">
+    <subfield code="2">MediaArchive</subfield>
+    <subfield code="u">https://mediaarchive.cern.ch/MediaArchive/Video/Public/Movies/CERN/1993/CERN-MOVIE-1993-006/CERN-MOVIE-1993-006-001/CERN-MOVIE-1993-006-001-thumbnail-135x101-at-15-percent.jpg</subfield>
+    <subfield code="x">jpgthumbnail</subfield>
+    <subfield code="y">thumbnail 135x101 at 15 percent</subfield>
+  </datafield>
+  <datafield tag="856" ind1="7" ind2=" ">
+    <subfield code="2">MediaArchive</subfield>
+    <subfield code="u">https://mediaarchive.cern.ch/MediaArchive/Video/Public/Movies/CERN/1993/CERN-MOVIE-1993-006/CERN-MOVIE-1993-006-001/CERN-MOVIE-1993-006-001-thumbnail-135x101-at-25-percent.jpg</subfield>
+    <subfield code="x">jpgthumbnail</subfield>
+    <subfield code="y">thumbnail 135x101 at 25 percent</subfield>
+  </datafield>
+  <datafield tag="856" ind1="7" ind2=" ">
+    <subfield code="2">MediaArchive</subfield>
+    <subfield code="u">https://mediaarchive.cern.ch/MediaArchive/Video/Public/Movies/CERN/1993/CERN-MOVIE-1993-006/CERN-MOVIE-1993-006-001/CERN-MOVIE-1993-006-001-thumbnail-135x101-at-35-percent.jpg</subfield>
+    <subfield code="x">jpgthumbnail</subfield>
+    <subfield code="y">thumbnail 135x101 at 35 percent</subfield>
+  </datafield>
+  <datafield tag="856" ind1="7" ind2=" ">
+    <subfield code="2">MediaArchive</subfield>
+    <subfield code="u">https://mediaarchive.cern.ch/MediaArchive/Video/Public/Movies/CERN/1993/CERN-MOVIE-1993-006/CERN-MOVIE-1993-006-001/CERN-MOVIE-1993-006-001-thumbnail-135x101-at-45-percent.jpg</subfield>
+    <subfield code="x">jpgthumbnail</subfield>
+    <subfield code="y">thumbnail 135x101 at 45 percent</subfield>
+  </datafield>
+  <datafield tag="856" ind1="7" ind2=" ">
+    <subfield code="2">MediaArchive</subfield>
+    <subfield code="u">https://mediaarchive.cern.ch/MediaArchive/Video/Public/Movies/CERN/1993/CERN-MOVIE-1993-006/CERN-MOVIE-1993-006-001/CERN-MOVIE-1993-006-001-thumbnail-135x101-at-55-percent.jpg</subfield>
+    <subfield code="x">jpgthumbnail</subfield>
+    <subfield code="y">thumbnail 135x101 at 55 percent</subfield>
+  </datafield>
+  <datafield tag="856" ind1="7" ind2=" ">
+    <subfield code="2">MediaArchive</subfield>
+    <subfield code="u">https://mediaarchive.cern.ch/MediaArchive/Video/Public/Movies/CERN/1993/CERN-MOVIE-1993-006/CERN-MOVIE-1993-006-001/CERN-MOVIE-1993-006-001-thumbnail-135x101-at-65-percent.jpg</subfield>
+    <subfield code="x">jpgthumbnail</subfield>
+    <subfield code="y">thumbnail 135x101 at 65 percent</subfield>
+  </datafield>
+  <datafield tag="856" ind1="7" ind2=" ">
+    <subfield code="2">MediaArchive</subfield>
+    <subfield code="u">https://mediaarchive.cern.ch/MediaArchive/Video/Public/Movies/CERN/1993/CERN-MOVIE-1993-006/CERN-MOVIE-1993-006-001/CERN-MOVIE-1993-006-001-thumbnail-135x101-at-75-percent.jpg</subfield>
+    <subfield code="x">jpgthumbnail</subfield>
+    <subfield code="y">thumbnail 135x101 at 75 percent</subfield>
+  </datafield>
+  <datafield tag="856" ind1="7" ind2=" ">
+    <subfield code="2">MediaArchive</subfield>
+    <subfield code="u">https://mediaarchive.cern.ch/MediaArchive/Video/Public/Movies/CERN/1993/CERN-MOVIE-1993-006/CERN-MOVIE-1993-006-001/CERN-MOVIE-1993-006-001-thumbnail-135x101-at-85-percent.jpg</subfield>
+    <subfield code="x">jpgthumbnail</subfield>
+    <subfield code="y">thumbnail 135x101 at 85 percent</subfield>
+  </datafield>
+  <datafield tag="856" ind1="7" ind2=" ">
+    <subfield code="2">MediaArchive</subfield>
+    <subfield code="u">https://mediaarchive.cern.ch/MediaArchive/Video/Public/Movies/CERN/1993/CERN-MOVIE-1993-006/CERN-MOVIE-1993-006-001/CERN-MOVIE-1993-006-001-thumbnail-135x101-at-95-percent.jpg</subfield>
+    <subfield code="x">jpgthumbnail</subfield>
+    <subfield code="y">thumbnail 135x101 at 95 percent</subfield>
+  </datafield>
+  <datafield tag="856" ind1="4" ind2=" ">
+    <subfield code="2">EOS</subfield>
+    <subfield code="q">MP4</subfield>
+    <subfield code="u">http://cern.ch/digital-memory/media-archive/video/cern/mp4/1045231-a.mp4</subfield>
+    <subfield code="y">Video-1045231-a</subfield>
+    <subfield code="z">mp4 video format (640x360)</subfield>
+    <subfield code="w">(PICTURAE:MD5)ac_S1V1_1045231-a.mp4;16a62633b9f8ea8e3dd30818350ab97d</subfield>
+  </datafield>
+  <datafield tag="856" ind1="7" ind2=" ">
+    <subfield code="2">EOS</subfield>
+    <subfield code="q">MOV</subfield>
+    <subfield code="d">/eos/media/cds/public/www/digital-memory/media-archive/video/cern/mov/1045231-a.mov</subfield>
+    <subfield code="w">(PICTURAE:MD5)am_S1V1_1045231-a.mov;1a55fee165611c2518749f5f55bf4bc6</subfield>
+  </datafield>
+  <datafield tag="856" ind1="7" ind2=" ">
+    <subfield code="2">EOS</subfield>
+    <subfield code="q">MKV</subfield>
+    <subfield code="d">/eos/media/cds/public/www/digital-memory/media-archive/video/cern/mkv/1045231-a.mkv</subfield>
+    <subfield code="w">(PICTURAE:MD5)pm_S1V1_1045231-a.mkv;57e28108453819d19dcb0e9024cc7adb</subfield>
+  </datafield>
+  <datafield tag="859" ind1=" " ind2=" ">
+    <subfield code="f">christiane.montarbaud@cern.ch</subfield>
+  </datafield>
+  <datafield tag="937" ind1=" " ind2=" ">
+    <subfield code="c">15 Jul 2015</subfield>
+  </datafield>
+  <datafield tag="960" ind1=" " ind2=" ">
+    <subfield code="a">85</subfield>
+  </datafield>
+  <datafield tag="963" ind1=" " ind2=" ">
+    <subfield code="a">PUBLIC</subfield>
+  </datafield>
+  <datafield tag="970" ind1=" " ind2=" ">
+    <subfield code="a">AVW.clip.631</subfield>
+  </datafield>
+  <datafield tag="970" ind1=" " ind2=" ">
+    <subfield code="d">https://videos.cern.ch/record/1045231</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">PUBLVIDEOMOVIE</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="b">VIDEOMEDIALAB</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="c">MIGRATED</subfield>
+  </datafield>
+</record>
+</collection>

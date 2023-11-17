@@ -1,0 +1,140 @@
+{% extends "default.html" %}
+{% block content %}
+    <div id="new_records" style="width: 42%;">
+        <form action="{{url_for('home')}}">
+            <button type="submit" name="redirect" class="btn btn-primary">Upload New Records</button>
+        </form>
+        <form method="post" id="forms">
+            <button type="submit" name="next" value="next_chunk" class="btn btn-info">Next Chunk of Records</button>
+        </form>
+    </div>
+    <div id="introduction">
+        <h1>Uploading JSON(s)</h1>
+        <meta id="records_len" data-content="{{ records_len }}">
+        <div id="progress_bar"><b style="font-size: large">0.0% &nbsp;&nbsp;[&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]</b></div>
+        <div class="break"></div>
+        <div id="working_records"></div>
+        <div id="broken_records"></div>
+    </div>
+    <script>
+        function progress_bar() {
+            fetch('/api/upload_progress')
+                .then(response => response.json())
+                .then(async data => {
+                    var progress_bar_element = document.getElementById('progress_bar');
+                    var broken_records_element = document.getElementById('broken_records');
+                    var working_records_element = document.getElementById('working_records')
+                    
+                    let state_string = '';
+
+                    per_decimal = 10*data.length/$('#records_len').data()['content'];
+
+                    var count_true_videos = 0;
+                    var count_video_processing = 0;
+
+                    progress_bar_element.innerHTML = '<b style="font-size: large">' + (10*per_decimal).toFixed(1).toString() + '% &nbsp;&nbsp;[</b>';
+                    for (let i = 0; i < Math.floor(per_decimal); i++) {
+                        progress_bar_element.innerHTML += '<b style="font-size: large">##</b>';
+                    }
+
+                    for (let i = 0; i < 10-Math.floor(per_decimal); i++) {
+                        progress_bar_element.innerHTML += '<b style="font-size: large">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</b>';
+                    }
+
+                    progress_bar_element.innerHTML += '<b style="font-size: large">]</b>';
+
+                    for (let i = Math.max(0, (data.length-1)-10); i < data.length; i++) {
+                        if (data[i][0] == false) {
+                            if (broken_records == false) {
+                                broken_records_element.innerHTML = '<b style="font-size: large">You have some broken records: </b><div class="break"></div>';
+                                broken_records = true;
+                            }
+
+                            broken_records_element.innerHTML += '<p>Video: ' + data[i][1].toString().split("/").at(-1) + ' -> ' + data[i][2].toString() +  "  </p>";
+
+                            state_string += data[i][data[i].length-1].toString() + ";False;" + data[i][1].toString().split("/").at(-1) + ";" + data[i][2].toString() + "\n";
+                        }
+
+                        else {
+                            var video_states = video_status(data[i]);
+                            await video_states.then(value => {
+                                new_string = '<p>Video ' + data[i][1].toString().split("/").at(-1) + ': <br> Download: ' + value['file_download'] + '; Metadata Extraction: ' + value['file_video_metadata_extraction'] + '; Frames Extraction: ' + value['file_video_extract_frames'] + '; Transcode: ' + value['file_transcode'] + '</p>';
+
+                                if (working_records == false) {
+                                    working_records_element.innerHTML = '<b style="font-size: large;">Records states: </b><div class="break"></div>';
+                                    working_records = true;
+                                }
+
+                                working_records_element.innerHTML += new_string;
+
+                                //if (value['file_transcode'] == 'SUCCESS') {
+                                if (value['file_transcode'] == 'STARTED') {
+                                    count_video_processing += 1;
+
+                                    state_string += data[i][data[i].length-1].toString() + ";True;" + data[i][1].toString().split("/").at(-1) + ";download:" + value['file_download'] + ",metadata:" + value['file_video_metadata_extraction'] + ",frames:" + value['file_video_extract_frames'] + ",transcode:" + value['file_transcode'] + "\n";
+                                }
+
+                                else if (value['file_download'] == 'FAILURE' || value['file_video_metadata_extraction'] == 'FAILURE' || value['file_video_extract_frames'] == 'FAILURE' || value['file_transcode'] == 'FAILURE') {
+                                    count_video_processing += 1;
+
+                                    state_string += data[i][data[i].length-1].toString() + ";False;" + data[i][1].toString().split("/").at(-1) + ";download:" + value['file_download'] + ",metadata:" + value['file_video_metadata_extraction'] + ",frames:" + value['file_video_extract_frames'] + ",transcode:" + value['file_transcode'] + "\n";
+                                }
+                            });
+
+                            count_true_videos += 1;
+                        }
+                    }
+
+                    if ((data.length % 10 == 0 || per_decimal >= 10) && count_video_processing >= count_true_videos) {
+                        clearInterval(progress_bar_interval);
+
+                        let response = write_db(state_string);
+
+                        next_button_element.disabled = false;
+                        next_button_element.classList.remove('disabled')
+                    }
+                    working_records = false;
+                    broken_records = false;
+                });
+        }
+
+        async function video_status(video_data) {
+            var video_states = false;
+            
+            const response = await fetch('https://localhost:5000/api/deposits/video/' + video_data[3].toString(), {
+                method: 'GET',
+                mode: 'cors',
+                headers: new Headers({
+                    'Authorization': video_data[2].toString(),
+                })
+            });
+            const data = await response.json();
+            video_states = data['metadata']['_cds']['state'];
+
+            return video_states;
+        }
+
+        function write_db(state_string) {
+            const data = {
+                state_string: state_string
+            };
+            
+            fetch('/api/write_db', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify(data)
+            });
+        }
+        
+        const next_button_element = document.getElementsByName('next')[0];
+        next_button_element.disabled = true;
+        next_button_element.classList.add('disabled');
+
+        var progress_bar_interval = setInterval(progress_bar, 3000);
+
+        var working_records = false;
+        var broken_records = false;
+    </script>
+{% endblock content %}

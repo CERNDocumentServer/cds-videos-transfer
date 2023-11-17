@@ -1,0 +1,40 @@
+{% extends "default.html" %}
+{% block content %}
+    <div id="new_records" style="margin-left: 44%;">
+        <form action="{{url_for('home')}}">
+            <button type="submit" name="redirect" class="btn btn-primary">Upload New Records</button>
+        </form>
+    </div>
+    <div id="introduction">
+        <h1>MARCXML and JSON comparison</h1>
+        <p>In this page you'll find both the MARCXML metadata and JSON conversion metadata from your record(s). If you scroll down, you'll also find a button and a link, which respectively allow you to upload the old video to the new CDS-Videos platform and download the JSON records to your system.</p>
+    </div>
+    <div id="json_content">
+        <meta id="data" data-json="{{json_records}}">
+        {% for index in range(json_records|length): %}
+            <div>
+                {{ blob_list[index] }}
+            </div>
+            <div>
+                {{ json_records[index] }}
+            </div>
+        {% endfor %}
+        <form method="post">
+            <button type="submit" class="btn btn-primary">Upload to CDS-Videos</button>
+        </form>
+        <div class="break"></div>
+    </div>
+    <script>
+        window.onload  = function() {
+            const file = new File([$('#data').data()['json']], 'json_records.txt', {type: 'text/plain'});
+
+            const link = document.createElement('a');
+            const url = URL.createObjectURL(file);
+
+            link.href = url;
+            link.download = file.name;
+            link.textContent = 'Click here to download the JSON file'
+            document.getElementById('json_content').appendChild(link);
+        }
+    </script>
+{% endblock content %}

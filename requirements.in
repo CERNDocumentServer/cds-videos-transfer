@@ -1,0 +1,4 @@
+flask
+tqdm
+pip-tools
+ipdb

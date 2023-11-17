@@ -1,0 +1,21 @@
+{% extends "default.html" %}
+{% block content %}
+    <div id="introduction">
+        <h1>Video Transfer</h1>
+        <p>If you're having a hard time converting old CDS video files to new CDS-Videos files, don't worry we've been trough most of the pain for you.<br><br><b>Single Record:</b> Just put your record ID on the 'Record' section below and press submit to convert its MARCXML metadata to JSON metadata.<br><br><b>Multiple Records or Query:</b> Now if you want to convert a more than a record, use the 'Query' form instead. Indicate the record IDs like 'first_number,second_number,third_number' or search for a query like 'physics'. If your query fetches more than 10 videos, they will be migrated in chunks of 10 records.<br><br><b>All Records:</b>Lastly, if you want to migrate all data in chunks of 10 records, press the 'Migrate All' button.</p>
+    </div>
+    <form method="post" id="forms">
+        <div class="form-group">
+            <label for="single_recid">Record</label>
+            <input type="number" class="form-control" id="single_recid" name="recid" placeholder="2213978">
+        </div>
+        <div class="form-group">
+            <label for="query">Query</label>
+            <input type="text" class="form-control" id="query" name="qry" placeholder="">
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+    <form style="margin-top: 2%;" method="post" id="forms">
+        <button type="submit" style="font-size: x-large;" name="all" value="all_records" class="btn btn-primary">Migrate All</button>
+    </form>
+{% endblock content %}
